@@ -19,10 +19,10 @@
  */
 
 // Used for browsers with partially native support of Custom Elements
-import '@webcomponents/custom-elements/src/native-shim';
+ import '@webcomponents/custom-elements/src/native-shim';
 
-// Used for browsers without a native support of Custom Elements
-import '@webcomponents/custom-elements/custom-elements.min';
+// // Used for browsers without a native support of Custom Elements
+ import '@webcomponents/custom-elements/custom-elements.min';
 
 /** IE9, IE10 and IE11 requires all of the following polyfills. **/
 // import 'core-js/es6/symbol';
